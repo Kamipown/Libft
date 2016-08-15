@@ -6,7 +6,7 @@
 #    By: pdelobbe <pdelobbe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/02 14:03:15 by pdelobbe          #+#    #+#              #
-#    Updated: 2016/08/16 01:29:07 by pdelobbe         ###   ########.fr        #
+#    Updated: 2016/08/16 01:35:03 by pdelobbe         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -82,7 +82,8 @@ SRC =	ft_memset.c \
 		ft_strjoin_ff.c \
 		ft_strrev.c \
 		ft_strtrunc.c \
-		ft_strmax.c
+		ft_strmax.c \
+		get_next_line.c
 
 OBJ =	$(SRC:.c=.o)
 
