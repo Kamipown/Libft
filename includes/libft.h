@@ -6,7 +6,7 @@
 /*   By: pdelobbe <pdelobbe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/02 14:14:54 by pdelobbe          #+#    #+#             */
-/*   Updated: 2016/08/16 02:06:07 by pdelobbe         ###   ########.fr       */
+/*   Updated: 2016/08/16 02:15:40 by pdelobbe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,4 +104,5 @@ int					get_next_line(int const fd, char **line);
 size_t				ft_strlen_delim(const char *s, const char delim);
 char				*ft_strdup_delim(const char *s1, const char delim);
 int					ft_iswhitespace(const char c);
+
 #endif
